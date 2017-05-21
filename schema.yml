@@ -1,0 +1,14 @@
+--- 
+relation: 
+    name: Triple
+    schema: default
+    fields:
+        - 
+            fieldName: s
+            element: subject
+        - 
+            fieldName: p
+            element: predicate
+        - 
+            fieldName: o
+            element: object
