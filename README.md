@@ -1,10 +1,10 @@
 ##Description
-SPARQL to SQL translation program
+SPARQL to SQL translation tool
 
 ##Author
 Munkhbayar Nergui
 ###Email
-munkhbayar.nergui@postgrad.manchester.ac.uk
+muunuu17@gmail.com
 ###Org
 University of Manchester
 ###Year
@@ -19,11 +19,14 @@ Simone Tripodi, Michele Mostarda
 Vertical
 
 ##Required Libraries
-###Python version
-3.6
-###
+###Python 3.6
+Runtime (https://pypi.python.org/pypi/antlr4-python3-runtime/)
+
 PyYml (pip install PyYml)
+
 Flask (pip install Flask)
+
+json (pip install json)
 
 ##No data error
 Please remove the .db file in Connection folder then start server again.

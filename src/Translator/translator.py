@@ -191,7 +191,7 @@ def trans_multi_objects(objects, trans_mode):
 			sqlObj = trans(obj, trans_mode)
 			# if object is GroupGraphPattern then translate to SQL Union
 			if isinstance(obj, SparqlParser.GroupGraphPatternContext):
-				joined_sql_obj = unite_sql_objects(joined_sql_obj, sqlObj, trans_mode)
+				joined_sql_obj = unite_SQL_objects(joined_sql_obj, sqlObj, trans_mode)
 			# if object is not GroupGraphPattern then translate to SQL Join
 			else:
 				joined_sql_obj = merge_SQL_objects(sqlObj, joined_sql_obj, SQL_INNER_JOIN, trans_mode)

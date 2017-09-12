@@ -159,7 +159,7 @@ def build_join_conditions(sql_obj1, sql_obj2, trans_mode):
 
 # UNION translator
 
-def unite_sql_objects(sql_obj1, sql_obj2, trans_mode):
+def unite_SQL_objects(sql_obj1, sql_obj2, trans_mode):
 	if trans_mode == 1:
 		union_part1 = merge_SQL_objects(sql_obj1, sql_obj2, SQL_LEFT_OUTER_JOIN, 1, True)
 		union_part2 = merge_SQL_objects(sql_obj2, sql_obj1, SQL_LEFT_OUTER_JOIN, 1, True)
